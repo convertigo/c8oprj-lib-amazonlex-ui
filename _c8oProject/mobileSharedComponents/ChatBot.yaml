@@ -304,7 +304,7 @@ comment: |
             '{
              "ionBean": "SetGlobalAction",
              "Property": "plain:myMessage",
-             "Value": "source:{\"filter\":\"Form\",\"project\":\"converti__go\",\"input\":\"form1562052281455?.controls[''inputFrom'']?.value\"}"
+             "Value": "source:{\"filter\":\"Form\",\"project\":\"lib_AmazonLEX_ui\",\"input\":\"form1562052281455?.controls[''inputFrom'']?.value\",\"model\":{\"data\":[{\"priority\":1562052281455}],\"path\":\"?.controls[''inputFrom'']?.value\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}"
             }'
           ↓Alexa_Request [mobile.components.UICustomAction-1562052281506]: 
             actionValue: 
@@ -369,12 +369,12 @@ comment: |
                   varValue: 
                     - xmlizable: 
                       - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
-                      - MobileSmartSourceType: source:{"filter":"Sequence","project":"converti__go","input":"listen(['lib_AmazonLEX.PostTextGetAudio#ALEXA'])?.lex?.message"}
+                      - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_AmazonLEX_ui","input":"listen(['lib_AmazonLEX.PostTextGetAudio#ALEXA'])?.lex?.message","model":{"data":[{"sequence":"lib_AmazonLEX.PostTextGetAudio","marker":""}],"path":"?.lex?.message","prefix":"","suffix":"","custom":"","useCustom":false}}
                 ↓sound [mobile.components.UIControlVariable-1562052281530]: 
                   varValue: 
                     - xmlizable: 
                       - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
-                      - MobileSmartSourceType: source:{"filter":"Sequence","project":"converti__go","input":"listen(['lib_AmazonLEX.PostTextGetAudio#ALEXA'])?.lex?.audio"}
+                      - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_AmazonLEX_ui","input":"listen(['lib_AmazonLEX.PostTextGetAudio#ALEXA'])?.lex?.audio","model":{"data":[{"sequence":"lib_AmazonLEX.PostTextGetAudio","marker":""}],"path":"?.lex?.audio","prefix":"","suffix":"","custom":"","useCustom":false}}
   ↓Attr1 [mobile.components.UIAttribute-1580212979142]: 
     attrName: '[ngClass]'
     attrValue: 
