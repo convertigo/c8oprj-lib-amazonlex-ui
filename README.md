@@ -1,4 +1,4 @@
-# c8oprj-lib-amazonlex-ui
+# lib_AmazonLEX_ui
 Library for interacting with Amazon Lex Chatbots
 This library Enables Convertigo to build conversational Apps for Mobile Web and Desktop Apps by interacting with Amazon's ChatBot Technology...
 
